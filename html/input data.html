@@ -1,0 +1,152 @@
+<html>
+<head>
+	<title>Belajar Material Design</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="conf/css/materialize.min.css"/>
+
+<style>
+.bjn{
+	margin-left: 350px;
+}
+.bijan{
+	margin:0 355px !important;
+}
+.row{
+	margin-top:4%; 
+}
+.ava{
+	padding-top: 7px;
+}
+.nun{
+	width:300px;
+}
+.wong{
+height:30px !important;
+margin:0px !important;
+}
+.wing{
+padding:10px;
+}
+input{
+	margin-top: -15px !important; 
+}
+.ko{
+	margin-top: 5px;
+}
+</style>
+</head>
+
+<body>
+<ul id="bjndropdown" class="dropdown-content" style="margin-top:64px;">
+			<li><a href="#">Bijan</a></li>
+			<li><a href="#">cantik</a></li>
+			<li><a href="#">banget</a></li>
+		</ul>
+<nav>
+	<div class="top-nav fixed">
+		<a href="index.html" class="brand-logo bjn hide-on-med-and-down" >Bijan cantik</a>
+		<a href="index.html" class="brand-logo center show-on-med-and-down hide-on-large-only"  >Bijan cantik</a>
+		<a href="#" data-activates="mobile-menu" class="button-collapse">
+			<img class="ava" src="more_wh.png"></img>
+		</a>
+		<a href="#" class="right ava dropdown-button" data-activates="bjndropdown"><img src="ava.png"></a>
+</div>
+
+	<div class="side-nav fixed">
+	<ul class="left hide-on-med-and-down">
+			<li>&nbsp;</li>
+			<li>&nbsp;</li>
+			<li class="nun"><a href="lihat%20data.html">Lihat Data</a></li>
+			<li class="nun"><a href="input%20data.html">Input Data</a></li>
+			<li class="nun"><a href="#">Lihat Siswa</a></li>
+		</ul>
+	</div>
+	<ul class="side-nav left" id="mobile-menu">
+			<li>&nbsp;</li>
+			<li>&nbsp;</li>
+			<li><a href="lihat%20data.html">Lihat Data</a></li>
+			<li><a href="input%20data.html">Input Data</a></li>
+			<li><a href="#">Lihat Siswa</a></li>
+		</ul>
+	</nav> 	
+	<div class="container bijan show-on-large-and-med-only hide-on-med-and-down">
+		<h3 align="right">Input Nilai Siswa</h3>
+		<ul class="collection">
+		<form>
+			<li class="collection-item">
+				<div class="row wong">
+					<div class="col s3 m3 l3">
+						NISN
+					</div>
+					<div class="col s3 m3 l3">
+						Nama
+					</div>
+					<div class="col s3 m3 l3">
+						Kelas
+					</div>
+					<div class="col s3 m3 l3">
+						Nilai
+					</div>
+				</div>
+			</li>
+			<li class="collection-item">
+				<div class="row wong">
+					<div class="col s3 m3 l3 ko">
+						999xxxxxxx
+					</div>
+					<div class="col s3 m3 l3 ko">
+						Widya Wulansari
+					</div>
+					<div class="col s3 m3 l3 ko">
+						XII TKJ B
+					</div>
+					<div class="col s3 m3 l3">
+						<input type="text" placeholder="nilai"/>
+					</div>
+				</div>
+			</li>
+			<li class="collection-item"></li>
+		</ul>
+				<div class="btn">
+					<span>INPUT</span>
+				</div>
+			</form>
+	</div>
+		<div class="container show-on-small-only hide-on-large-only">
+		<h3 align="right">Input Nilai Siswa</h3>
+		<ul class="collection">
+		<form>
+			<li class="collection-item">
+				<div class="row wong">
+					<div class="col s6 m6 l6">
+						Nama
+					</div>
+					<div class="col s6 m6 l6">
+						Nilai
+					</div>
+				</div>
+			</li>
+			<li class="collection-item">
+				<div class="row wong">
+					<div class="col s6 m6 l6 ko">
+						Widya Wulansari
+					</div>
+					<div class="col s6 m6 l6 ko">
+						<input type="text" placeholder="nilai"/>
+					</div>
+				</div>
+			</li>
+			<li class="collection-item"></li>
+			</form>
+		</ul>
+	</div>
+</footer>
+		<script src="conf/js/jquery-3.0.0.min.js"></script>
+		<script src="conf/js/materialize.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.button-collapse').sideNav('');
+			});
+		</script>
+</body>
+</html>

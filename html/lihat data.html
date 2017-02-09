@@ -1,0 +1,233 @@
+<html>
+<head>
+	<title>Belajar Material Design</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="conf/css/materialize.min.css"/>
+
+<style>
+.bjn{
+	margin-left: 350px;
+}
+.bijan{
+	margin:0 355px !important;
+}
+.row{
+	margin-top:4%; 
+}
+.ava{
+	padding-top: 7px;
+}
+.nun{
+	width:300px;
+}
+.wong{
+height:30px !important;
+margin:0px !important;
+}
+.wing{
+padding-left:20px;
+}
+</style>
+</head>
+
+<body>
+<ul id="bjndropdown" class="dropdown-content" style="margin-top:64px;">
+			<li><a href="#">Bijan</a></li>
+			<li><a href="#">cantik</a></li>
+			<li><a href="#">banget</a></li>
+		</ul>
+<nav>
+	<div class="top-nav fixed">
+		<a href="index.html" class="brand-logo bjn hide-on-med-and-down" >Bijan cantik</a>
+		<a href="index.html" class="brand-logo center show-on-med-and-down hide-on-large-only"  >Bijan cantik</a>
+		<a href="#" data-activates="mobile-menu" class="button-collapse">
+			<img class="ava" src="more_wh.png"></img>
+		</a>
+		<a href="#" class="right ava dropdown-button" data-activates="bjndropdown"><img src="ava.png"></a>
+</div>
+
+	<div class="side-nav fixed">
+	<ul class="left hide-on-med-and-down">
+			<li>&nbsp;</li>
+			<li>&nbsp;</li>
+			<li class="nun"><a href="lihat%20data.html">Lihat Data</a></li>
+			<li class="nun"><a href="input%20data.html">Input Data</a></li>
+			<li class="nun"><a href="#">Lihat Siswa</a></li>
+		</ul>
+	</div>
+	<ul class="side-nav left" id="mobile-menu">
+			<li>&nbsp;</li>
+			<li>&nbsp;</li>
+			<li><a href="lihat%20data.html">Lihat Data</a></li>
+			<li><a href="input%20data.html">Input Data</a></li>
+			<li><a href="#">Lihat Siswa</a></li>
+		</ul>
+	</nav> 	
+		<div class="container bijan show-on-large-only hide-on-med-and-down">
+		<div class="search-wrapper card">
+            <input id="search">
+            </div>
+	<ul class="collapsible" data-collapsible="expandable">
+    <li class="header">
+	<div class="row wing">
+		<div class="col s12 m12 l4">
+			Nama
+		</div>
+		<div class="col s12 m12 l4">
+			NISN
+		</div>
+		<div class="col s12 m12 l4">
+			Kelas
+		</div>
+	</div>
+	<hr/>
+	</li>
+	<li>
+	<?php
+     echo "<div class=\"collapsible-header\">";
+	  echo "<div class=\"row wong\">";
+	  echo "<div class=\"col s4 m4 l4\">";
+	  echo "Annisa Yurlinda Utomo";
+	  echo "</div>";
+	  echo "<div class=\"col s4 m4 l4\">";
+	  echo "999xxxxxxx";
+	  echo "</div>";
+	  echo "<div class=\"col s4 m4 l4\">";
+	  echo "XII TKJ B";
+	  echo "</div>";
+	  echo "</div>";
+	  echo "</div>";
+      echo "<div class=\"collapsible-body\"><p>Lorem ipsum dolor sit amet.</p></div>";
+	?>
+	</li>
+    <li>
+            <div class="collapsible-header">
+	  <div class="row wong">
+	  <div class="col s4 m4 l4">
+	  Second
+	  </div>
+	  <div class="col s4 m4 l4">
+	  Second
+	  </div>
+	  <div class="col s4 m4 l4">
+	  Second
+	  </div>
+	  </div>
+	  </div>
+	  <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+    </li>
+    <li>
+            <div class="collapsible-header wong">
+	  <div class="row wong">
+	  <div class="col s4 m4 l4">
+	  Thrid
+	  </div>
+	  <div class="col s4 m4 l4">
+	  Thrid
+	  </div>
+	  <div class="col s4 m4 l4">
+	  Thrid
+	  </div>
+	  </div>
+	  </div>
+	  <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+    </li>
+  </ul> 	
+  </div>
+	<div class="container show-on-med-and-down hide-on-large-only">
+	<ul class="collapsible " data-collapsible="expandable">
+	 <li class="header">
+	<div class="row wong">
+		<div class="col s4 m4 l4">
+			Nama
+		</div>
+		<div class="col s4 m4 l4">
+			NISN
+		</div>
+		<div class="col s4 m4 l4">
+			Kelas
+		</div>
+	</div>
+	<hr/>
+	</li>
+    <li>
+      <div class="collapsible-header wong">
+	  <div class="row wong">
+	  <div class="col s4 m4 l4">
+	  First
+	  </div>
+	  <div class="col s4 m4 l4">
+	  First
+	  </div>
+	  <div class="col s4 m4 l4">
+	  First
+	  </div>
+	  </div>
+	  </div>
+      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+	</li>
+    <li>
+            <div class="collapsible-header wong">
+	  <div class="row wong">
+	  <div class="col s4 m4 l4">
+	  Second
+	  </div>
+	  <div class="col s4 m4 l4">
+	  Second
+	  </div>
+	  <div class="col s4 m4 l4">
+	  Second
+	  </div>
+	  </div>
+	  </div>
+	  <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+    </li>
+    <li>
+            <div class="collapsible-header wong">
+	  <div class="row wong">
+	  <div class="col s4 m4 l4">
+	  Thrid
+	  </div>
+	  <div class="col s4 m4 l4">
+	  Thrid
+	  </div>
+	  <div class="col s4 m4 l4">
+	  Thrid
+	  </div>
+	  </div>
+	  </div>
+	  <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+    </li>
+  </ul> 	
+  </div>
+ <footer class="page-footer" style="height:200px;">
+	<div class="container bijan show-on-large-only hide-on-med-and-down">
+		<div class="row">
+			<div class="col s4 l6 m6">
+			bijan
+			</div>
+			<div class="col s4 l6 m6">
+			cantik
+			</div>
+		</div>
+	</div>
+	<div class="container show-on-med-and-down hide-on-large-only">
+		<div class="row">
+			<div class="col s4 l6 m6">
+			bijan
+			</div>
+			<div class="col s4 l6 m6">
+			cantik
+			</div>
+		</div>
+	</div>
+</footer>
+		<script src="conf/js/jquery-3.0.0.min.js"></script>
+		<script src="conf/js/materialize.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.button-collapse').sideNav('');
+			});
+		</script>
+</body>
+</html>
